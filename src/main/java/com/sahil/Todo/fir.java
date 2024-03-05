@@ -1,0 +1,95 @@
+package com.sahil.Todo;
+
+
+import jakarta.persistence.Entity;
+import jakarta.persistence.GeneratedValue;
+import jakarta.persistence.GenerationType;
+import jakarta.persistence.Id;
+
+
+
+	
+
+	
+	
+	
+	
+
+	@Entity
+	public class fir {
+	    @Id
+	    @GeneratedValue(strategy = GenerationType.IDENTITY)
+	    private Long id;
+	    
+	    private String name;
+		private String email;
+		private String phone;
+		private String date;
+		private String location;
+		private String discription;
+		public String getName() {
+			return name;
+		}
+		public void setName(String name) {
+			this.name = name;
+		}
+		public String getEmail() {
+			return email;
+		}
+		public void setEmail(String email) {
+			this.email = email;
+		}
+		public String getPhone() {
+			return phone;
+		}
+		public void setPhone(String phone) {
+			this.phone = phone;
+		}
+		public String getDate() {
+			return date;
+		}
+		public void setDate(String date) {
+			this.date = date;
+		}
+		public String getLocation() {
+			return location;
+		}
+		public void setLocation(String location) {
+			this.location = location;
+		}
+		public String getDiscription() {
+			return discription;
+		}
+		public void setDiscription(String discription) {
+			this.discription = discription;
+		}
+		public fir(Long id, String name, String email, String phone, String daate, String location,
+				String discription) {
+			super();
+			this.id = id;
+			this.name = name;
+			this.email = email;
+			this.phone = phone;
+			this.date = daate;
+			this.location = location;
+			this.discription = discription;
+		}
+		public fir() {
+			
+			// TODO Auto-generated constructor stub
+		}
+		
+		
+	    
+	    
+
+	    // Getters and setters
+	}
+
+	
+	
+	
+	
+	
+		
+
